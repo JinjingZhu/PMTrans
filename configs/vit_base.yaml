@@ -1,0 +1,18 @@
+MODEL:
+  TYPE: vit
+  NAME: vit_base
+  DROP_RATE: 0.1
+  VIT:
+    EMBED_DIM: 768
+    PATCH_SIZE: 16
+    DEPTH: 12
+    NUM_HEADS: 12
+
+TRAIN:
+  EPOCHS: 50
+  # START_EPOCH: 48
+  BASE_LR: 1e-5
+
+DATA:
+  MEAN: (0.5, 0.5, 0.5)
+  STD: (0.5, 0.5, 0.5)

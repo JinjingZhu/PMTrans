@@ -1,0 +1,26 @@
+MODEL:
+  TYPE: deit
+  NAME: deit_base
+  DROP_PATH_RATE: 0.1
+  DEIT:
+    EMBED_DIM: 768
+
+
+TRAIN:
+  # BASE_LR: 1e-5
+  EPOCHS: 60
+  # START_EPOCH: 15
+  BASE_LR: 5e-6
+  # LR_MULT: 4
+  # WEIGHT_DECAY: 1e-4
+  # BIAS_WEIGHT_DECAY: 1e-4
+  # WARMUP_EPOCHS: 10
+  # MIN_LR_MULT: 0.5
+  # WARMUP_LR_MULT: 0.05
+  # OPTIMIZER:
+  #   NAME: SGD
+
+DATA:
+  MEAN: (0.485, 0.456, 0.406)
+  STD: (0.229, 0.224, 0.225)
+  

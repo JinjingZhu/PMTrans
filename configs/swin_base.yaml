@@ -1,0 +1,26 @@
+MODEL:
+  TYPE: swin
+  NAME: ds_swin_base_patch4_window7_224
+  DROP_PATH_RATE: 0.1
+  # RESUME: pretrained_models/swin_base_patch4_window7_224.pth
+  SWIN:
+    EMBED_DIM: 128
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 7
+
+TRAIN:
+  # BASE_LR: 1e-5
+  BASE_LR: 5e-6
+  EPOCHS: 50
+#  BASE_LR: 1e-5
+#  MIN_LR_MULT: 0.5
+#  WEIGHT_DECAY: 1e-4
+#  BIAS_WEIGHT_DECAY: 1e-4
+#  WARMUP_EPOCHS: 10
+#  WARMUP_LR_MULT: 0.05
+
+DATA:
+  MEAN: (0.485, 0.456, 0.406)
+  STD: (0.229, 0.224, 0.225)
+  
