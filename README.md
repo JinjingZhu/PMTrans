@@ -3,7 +3,7 @@ Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
 
 ### CVPR 2023 Highlight
 
-#This is a rough version, I will continue to polish it.
+This is a rough version, I will continue to polish it.
 
 ### Pretrained Swin-B
 
