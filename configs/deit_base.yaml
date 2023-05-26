@@ -8,7 +8,7 @@ MODEL:
 
 TRAIN:
   # BASE_LR: 1e-5
-  EPOCHS: 60
+  EPOCHS: 100
   # START_EPOCH: 15
   BASE_LR: 5e-6
   # LR_MULT: 4
