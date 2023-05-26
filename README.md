@@ -3,6 +3,8 @@ Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
 
 ### CVPR 2023 Highlight
 
+#This is a rough version, I will continue to polish it.
+
 ### Pretrained Swin-B
 
 - Download [swin_base_patch4_window7_224_22k.pth](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) and put it into `pretrained_models`
