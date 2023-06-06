@@ -3,6 +3,8 @@ Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
 
 ### CVPR 2023 Highlight
 
+### There some typos in results on the DomainNet dataset. we revise these typos in the newest version (https://arxiv.org/abs/2303.13434). Please check it.
+
 This is a rough version, I will continue to polish it.
 
 ### Pretrained Swin-B
